@@ -1,4 +1,5 @@
 import {Component } from 'react';
+import { Link } from 'react-router-dom'
 
 class App extends Component{
   
@@ -63,10 +64,10 @@ class App extends Component{
     const{notes}=this.state;
     return (
       <div className="App">
-        <h2>todo app</h2>
+        <h2>Home</h2>
         <div>
-          <button>Home</button>
-          <button>asd</button>
+          <button><Link to={"/"}>Home</Link></button>
+          <button><Link to={"/Menu"}>Menu</Link></button>
           <button>asd</button>
         </div>
         <input id="newNotes"></input>

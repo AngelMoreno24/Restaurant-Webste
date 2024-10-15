@@ -3,7 +3,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import MainPage from "./pages/mainPage";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
 import "./App.css"
 
 
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainPage/>}></Route>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/Menu" element={<Menu/>}></Route>
        </Routes>
       </BrowserRouter>
     </div>
