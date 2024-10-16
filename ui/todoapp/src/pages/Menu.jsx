@@ -1,20 +1,61 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 const Add = () => {
 
-  const [book, setBook] = useState({
-    title:"",
-    desc:"",
-    price:null,
-    cover:"",
-  })
+  const [foods, setFoods] = useState({ notes: [] })
+
+
+  const API_URL="http://localhost:5071/"
+
+  /////////////////////////////////////////////////
+  useEffect(() => {
+    const fetchAllBooks = async () => {
+      try {
+        const response = await fetch("http://localhost:5071/api/TodoApp/GetNotes");
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setFoods({ notes: data });
+      } catch (error) {
+        console.error("Failed to fetch notes:", error);
+        // Optionally, set an error state or notify the user
+      }
+    }
+      
+    fetchAllBooks()
+  },[])
+
+  const handleDelete = async (id) => {
+    try{
+      await axios.delete("http://localhost:5000/books/"+id);
+      window.location.reload();
+    }catch(err){
+      console.log(err);
+    }
+  }
+  /*
+
+  try {
+    const response = await fetch(this.API_URL + "api/TodoApp/GetNotes");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    this.setState({ notes: data });
+  } catch (error) {
+    console.error("Failed to fetch notes:", error);
+    // Optionally, set an error state or notify the user
+  }
+  */
 
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setBook((prev) => ({ ...prev, [e.target.name]: e.target.value }))
+    setFoods((prev) => ({ ...prev, [e.target.name]: e.target.value }))
   }
 
   const handleClick = async e => {
@@ -27,7 +68,9 @@ const Add = () => {
     }
   }
 
-  console.log(book)
+  console.log(foods)
+  console.log(foods.notes)
+  const food = foods.notes;
   return (
       <div className="App">
         <h2>Menu</h2>
@@ -39,8 +82,14 @@ const Add = () => {
         <div className='bar'>
 
         </div>
-        <div>
 
+        <div>
+          {food.map(food=>
+
+            <p class="card">
+              <b>* {food.description}</b>
+            </p>
+          )}
         </div>
       </div>
   )
