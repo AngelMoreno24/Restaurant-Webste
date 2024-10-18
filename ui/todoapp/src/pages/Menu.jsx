@@ -58,19 +58,16 @@ const Add = () => {
     setFoods((prev) => ({ ...prev, [e.target.name]: e.target.value }))
   }
 
-  const handleClick = async e => {
-    e.preventDefault();
-    try{
-      //await axios.post("http://localhost:5000/books", book)
-      //navigate("/")
-    }catch(err){
-      console.log(err)
-    }
+  const handleClick = (item) => {
+
+      alert(`added ${item} to cart`)
   }
 
   console.log(foods)
   console.log(foods.notes)
   const food = foods.notes;
+
+
   return (
       <div className="App">
         <h2>Menu</h2>
@@ -79,18 +76,23 @@ const Add = () => {
           <button><Link to={"/Menu"}>Menu</Link></button>
           <button>asd</button>
         </div>
+
         <div className='bar'>
-
         </div>
 
-        <div>
-          {food.map(food=>
+        <div class="side-border">
+              <div class="container">
+                {food.map(food=>
 
-            <p class="card">
-              <b>* {food.description}</b>
-            </p>
-          )}
+                  <p class="card">
+                    <b>* {food.description}</b>
+                    <button class="cart-Button" onClick={() => handleClick(food.description)}>+</button>
+                  </p>
+
+                )}
+              </div>
         </div>
+
       </div>
   )
 }
