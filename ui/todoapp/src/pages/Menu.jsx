@@ -85,7 +85,7 @@ const Add = () => {
                 {food.map(food=>
 
                   <p class="card">
-                    <b>* {food.description}</b>
+                    <b>{food.description}</b>
                     <button class="cart-Button" onClick={() => handleClick(food.description)}>+</button>
                   </p>
 
