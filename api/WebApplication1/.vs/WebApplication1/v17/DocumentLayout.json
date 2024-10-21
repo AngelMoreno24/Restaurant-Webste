@@ -11,12 +11,24 @@
       "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|c:\\c\\lone\\aspreact\\api\\webapplication1\\webapplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D337D266-C300-4815-94F4-9C5E39138A3C}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +38,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
-              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
-              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:55:47.409Z"
+              "DocumentIndex": 4,
+              "Title": "4e599a08-b471-45d1-8185-58298bb8d776.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg",
+              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\4e599a08-b471-45d1-8185-58298bb8d776.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-10-21T06:37:13.994Z",
+              "EditorCaption": " - Bitmap [275x183, 24 bit, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-07T05:41:51.159Z"
+              "DocumentIndex": 6,
+              "Title": "0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg",
+              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\0b34512a-38ab-419b-8696-ee97b6a3d20f.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-10-21T06:37:12.929Z",
+              "EditorCaption": " - Bitmap [275x183, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg",
+              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\images\\393074ee-c6ea-432d-8ee6-0d5231b0b24e.jpg - Bitmap [275x183, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-10-20T23:26:07.479Z",
+              "EditorCaption": " - Bitmap [275x183, 24 bit, JPG]"
             },
             {
               "$type": "Document",
@@ -64,9 +100,35 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TodoAppController.cs",
               "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\Controllers\\TodoAppController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TodoAppController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwBsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T05:41:46.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\WeatherForecast.cs",
+              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication1\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T05:55:47.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T05:41:51.159Z",
               "EditorCaption": ""
             },
             {
@@ -77,9 +139,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\C\\lone\\aspReact\\api\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T05:27:41.796Z"
+              "WhenOpened": "2024-10-07T05:27:41.796Z",
+              "EditorCaption": ""
             }
           ]
         }

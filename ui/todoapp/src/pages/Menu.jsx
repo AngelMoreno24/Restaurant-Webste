@@ -85,6 +85,8 @@ const Add = () => {
                 {food.map(food=>
 
                   <p class="card">
+                    <img src={"http://localhost:5071"+ food.ImageUrl} alt="" />
+                    <b>{food.ImageUrl}</b>
                     <b>{food.description}</b>
                     <button class="cart-Button" onClick={() => handleClick(food.description)}>+</button>
                   </p>

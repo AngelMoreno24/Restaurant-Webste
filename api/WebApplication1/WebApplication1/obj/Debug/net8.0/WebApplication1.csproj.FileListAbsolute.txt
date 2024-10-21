@@ -124,3 +124,5 @@ C:\C\lone\aspReact\api\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\W
 C:\C\lone\aspReact\api\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\C\lone\aspReact\api\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\C\lone\aspReact\api\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\C\lone\aspReact\api\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\C\lone\aspReact\api\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json

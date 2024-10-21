@@ -16,7 +16,7 @@ options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoop
 
 
 var app = builder.Build();
-
+app.UseStaticFiles();
 //Enable Cors
 app.UseCors(c => c.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 

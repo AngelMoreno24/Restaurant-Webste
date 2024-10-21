@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "WebApplication1.Controllers.TodoAppController",
+    "Method": "AddNoteWithImage",
+    "RelativePath": "api/TodoApp/AddNoteWithImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "newNotes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.TodoAppController",
     "Method": "DeleteNotes",
     "RelativePath": "api/TodoApp/DeleteNotes",
     "HttpMethod": "DELETE",
