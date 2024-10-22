@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import Navbar from '../Components/Navbar';
 
 const Add = () => {
 
@@ -44,11 +45,7 @@ const Add = () => {
   return (
       <div className="background">
         <h2>Menu</h2>
-        <div>
-          <button><Link to={"/"}>Home</Link></button>
-          <button><Link to={"/Menu"}>Menu</Link></button>
-          <button>asd</button>
-        </div>
+        <Navbar/>
 
         <div className='bar'>
         </div>

@@ -1,5 +1,6 @@
 import {Component } from 'react';
 import { Link } from 'react-router-dom'
+import Navbar from '../Components/Navbar';
 
 class App extends Component{
   
@@ -65,11 +66,7 @@ class App extends Component{
     return (
       <div className="App">
         <h2>Home</h2>
-        <div>
-          <button><Link to={"/"}>Home</Link></button>
-          <button><Link to={"/Menu"}>Menu</Link></button>
-          <button>asd</button>
-        </div>
+        <Navbar/>
         <input id="newNotes"></input>
       <button onClick={()=>this.addClick()}>Add Notes</button>
       {notes.map(note=>

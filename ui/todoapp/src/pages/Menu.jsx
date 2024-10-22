@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import Navbar from '../Components/Navbar';
+
+
 
 const Add = () => {
 
@@ -104,12 +107,8 @@ const Add = () => {
   return (
       <div className="background">
         <h2>Menu</h2>
-        <div>
-          <button><Link to={"/"}>Home</Link></button>
-          <button><Link to={"/Menu"}>Menu</Link></button>
-          <button><Link to={"/Cart"}>Cart</Link></button>
-          <button>asd</button>
-        </div>
+        
+        <Navbar/>
 
         <div className='bar'>
         </div>
@@ -128,7 +127,7 @@ const Add = () => {
                         <img class="food-Image" src={"http://localhost:5071"+ food.ImageUrl} alt="" />
                       </div>
                       
-                      <button class="cart-Button" onClick={() => handleClick({ id: food.id, name: food.description, price: 10 })}>+</button>
+                      <button class="cart-Button" onClick={() => handleClick({ id: food.id, name: food.description, price: 10 })}>Add to Cart</button>
 
                     </div>
                   </div>
