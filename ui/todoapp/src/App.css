@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -46,14 +48,19 @@
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 300px;
+  height: 230px;
 
 
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border: 6px solid rgb(143, 227, 238);
 
-  border-radius: 10px;
+  border-radius: 77px;
+
+  background-color: rgb(95, 165, 104);
+
+  
 }
 
 .bar{
@@ -66,16 +73,18 @@
 }
 .container{
   display: grid;
-  grid-template-rows: repeat(10, 200px);
-  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;
+  grid-template-rows: repeat(10, 300px);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 380px));
+  
 
 }
 
 
 .center {
   display: grid;
-  grid-template-rows: repeat(5, 100px);
-  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  grid-template-rows: repeat(3, 50px);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
   justify-content: center;
   column-gap: 10px;
   row-gap: 10px;
@@ -89,4 +98,43 @@
 
 .cart-Button{
   height: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 1px;
+  margin-top: 20px;
+}
+
+.food-Image{
+  height: 150px;
+  width: 250px;
+  margin-top: 20px;
+
+  border: 6px solid rgb(143, 227, 238);
+
+  border-radius: 55px;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+
+.background {
+  background-color: #D5ED9F; 
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #D5ED9F; 
+}
+.food-Description{
+
 }
